@@ -1,0 +1,99 @@
+body {background-image: url('https://u.cubeupload.com/zmonochrome/536c6323d439596e766f.jpg');bacground-size:cover;background-position:top;}a{text-decoration:none}*{transition:all 1s ease;cursor:url(https://u.cubeupload.com/zmonochrome/AlternateSelect.png),auto;color:rgba(255,255,255,0.8);text-decoration:none;font-family:Arial;font-size:8pt;-webkit-user-select:none}             
+             
+#everything{top:50%;margin-top:-240px;left:50%;margin-left:-395px;position:fixed;}             
+#whole{width:700px;height:400px;opacity:0.95 !imp0rtant;position:absolute;margin-left:20px;margin-top:20px;border:30px solid #000;}             
+  .profileimg{width:300px;height:400px;position:fixed;}             
+.profileimg img{width:100%;height:100%;}             
+.profileimg h1{position:absolute;margin:30px;bottom:0px;font-weight:900;color:white;font-family:calibri;font-size:40px;font-style:italic;text-transform:uppercase;}             
+.innerimg{width:260px;height:360px;border:20px solid black;position:fixed;z-index:10;opacity: 0.4;}             
+.innerimg:before{content:;display:block;position:absolute;z-index:-1;top:0px;left:0px;right:0px;bottom:0px;border:1px solid white;}             
+.innerwhole{width:380px;height:380px;background:#000;position:absolute;right:0px;padding:10px;opacity:0.9;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}             
+ .navigate{font-size:17px;position:absolute;z-index:999999;right:10px;top:2px;}             
+.navigate a{display:inline-block;font-weight:500;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;font-family:georgia;color:#903c3e;font-style:italic;margin-left:5px;margin-right:5px;}             
+  .header{width:100%;height:27px;}             
+  .head{float:right;width:100%;height:1px;margin-top:3.7%;background:white;}             
+.title {background:#000;text-align: justify;font-family:georgia;text-transform:lowecase;font-weight:100;width:auto;padding-right:15px;padding-left:5px;font-size:30px;top:17.5px;margin:0px;line-height:10px;height:15px;color:black;position:absolute;font-style:italic;color:#fff}             
+.topsec{width:357.5px;height:100px;position:absolute;margin:5px;padding:5px;padding-bottom:12.5px;margin-left:7.5px;margin-top:-5px;border-bottom:1px solid #fff;}             
+.wrap {border-radius: 50%;border:5px solid #532327;height:90px;width:90px;float: right;shape-outside: inset(1nopeund 50%);margin-left: 10px;position:relative;}             
+.topsec b{font-size:40px;margin-top:-2.5px;margin-left:-7.5px;color:#fff;position:absolute;}             
+.topsec article{width:100%;height:auto;margin:10px 10px 10px 15px;text-align:justify;}             
+.topsec article p{height:100%;width:70%;text-align:center;font-size:13.5px;font-family:crimson text;font-style:italic;line-height:12.5px;bottom:0px;}             
+.topsec article quotesource{font-family:calibri;font-size:10px;text-transform:uppercase;font-weight:100;float:right;position:relative;margin-top:-5px;background:#883a36;color:white;padding:2px 8px 2px 8px;border-radius:2px;}             
+.stats{width:140px;height:215px;padding:5px 15px 5px 7.5px;margin-top:125px;border-right:1px solid #fff;position:absolute;overflow:hidden;}             
+.stats h1{font-family:georgia;font-size:20px;font-style:italic;text-align:center;font-weight:100;line-height:15px;margin:0px;padding:0px;background:#6e303a;color:white;margin-bottom:20.5px;padding:3px 8px 6px 8px;border-radius:2px;}             
+.stats p{font-size:9px;font-family:calibri;line-height:10.5px;border-bottom:1px solid #fff;padding-bottom:9.5px;padding-left:10px;padding-right:10px;color:#000;}             
+.stats p:last-child{border-bottom:none;}             
+.stats span{float:right;color:#6e303a;}             
+.stats b{font-size:9.5;font-family:calibri;text-transform:uppercase;color:#fff;}             
+.about{position:absolute;width:195px;height:225px;right:15px;margin-top:125px;padding:0px;overflow:auto;line-height:12.5px;}             
+.about p{padding-top:2.5px;padding-bottom:2.5px;text-indent:0.9em;}             
+.about p:first-child{padding-top:0px;margin-top:0px;}             
+.about p:last-child{padding-bottom:0px;margin-bottom:0px;}             
+.about h1{font-family:calibri;text-transform:uppercase;font-weight:100;color:white;background:#883a36;text-align:center;font-size:13px;padding:3px 2px 3px 2px;border-radius:2px;}             
+.about h2{font-family:calibri;text-transform:uppercase;font-weight:100;color:white;background:#883a36;text-align:center;font-size:11px;padding:3px 2px 3px 2px;border-radius:2px;}             
+.about ul, .about ol{margin-left:10px;padding-left:5px;}             
+#nowaymenu{position:absolute}#nowaymenu{bottom:0;}
+@keyframes parpadeoFantasma {
+  0% {
+    opacity: 0.8;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+#everything {
+  animation: parpadeoFantasma 4s infinite ease-in-out;
+}
+#floating-symbol {
+  position: absolute;
+  bottom: 10px;  /* pegado a la parte inferior */
+  right: 10px;   /* pegado a la derecha */
+  font-size: 48px; /* tamaño grande */
+  pointer-events: none; /* no interfiere al arrastrar */
+  animation: flotarSimbolo 3s infinite ease-in-out;
+}
+
+/* Movimiento flotante */
+@keyframes flotarSimbolo {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); } /* sube un poco */
+  100% { transform: translateY(0); }
+}
+#mini-player {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0,0,0,0.5); /* negro semi-transparente */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#mini-player:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+#play-btn {
+  font-size: 24px;
+  color: white;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
